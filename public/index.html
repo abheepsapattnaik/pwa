@@ -13,6 +13,18 @@
   <link rel="stylesheet" href="/src/css/app.css">
   <link rel="stylesheet" href="/src/css/feed.css">
   <link rel="manifest" href="/manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-title" content="PWAapp">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-57x57.png" sizes="57x57">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-60x60.png" sizes="60x60">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-72x72.png" sizes="72x72">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-114x114.png" sizes="114x114">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-144x144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-180x180.png" sizes="180x180">
 </head>
 <body>
 <div id="app">
@@ -28,7 +40,8 @@
           <a class="mdl-navigation__link" href="/">Feed</a>
           <a class="mdl-navigation__link" href="/help">Help</a>
           <div class="drawer-option">
-            <button class="enable-notifications mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--accent">
+            <button
+              class="enable-notifications mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--accent">
               Enable Notifications
             </button>
           </div>
@@ -41,7 +54,8 @@
         <a class="mdl-navigation__link" href="/">Feed</a>
         <a class="mdl-navigation__link" href="/help">Help</a>
         <div class="drawer-option">
-          <button class="enable-notifications mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--accent">
+          <button
+            class="enable-notifications mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--accent">
             Enable Notifications
           </button>
         </div>
@@ -54,7 +68,8 @@
             <input class="mdl-textfield__input" type="text" id="title">
             <label class="mdl-textfield__label" for="title" name="title">Title</label>
           </div>
-          <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="manual-location">
+          <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
+               id="manual-location">
             <input class="mdl-textfield__input" type="text" id="location">
             <label class="mdl-textfield__label" for="location" name="location">Location</label>
           </div>
@@ -66,7 +81,8 @@
           </div>
           <br>
           <div>
-            <button class="mdl-button mdl-js-button mdl-button--fab" id="close-create-post-modal-btn" type="button">
+            <button class="mdl-button mdl-js-button mdl-button--fab" id="close-create-post-modal-btn"
+                    type="button">
               <i class="material-icons">close</i>
             </button>
           </div>
@@ -85,7 +101,8 @@
           <i class="material-icons">add</i>
         </button>
       </div>
-      <div id="confirmation-toast" aria-live="assertive" aria-atomic="true" aria-relevant="text" class="mdl-snackbar mdl-js-snackbar">
+      <div id="confirmation-toast" aria-live="assertive" aria-atomic="true" aria-relevant="text"
+           class="mdl-snackbar mdl-js-snackbar">
         <div class="mdl-snackbar__text"></div>
         <button type="button" class="mdl-snackbar__action"></button>
       </div>

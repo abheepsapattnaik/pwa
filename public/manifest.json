@@ -1,7 +1,7 @@
 {
 "name": "Instagram kinda PWA",
   "short_name": "PWA",
-  "icon": [
+  "icons": [
     {
       "src": "/src/images/icons/app-icon-48x48.png",
       "type": "image/png",

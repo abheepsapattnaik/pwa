@@ -17,6 +17,6 @@
   "author": "Abheepsa Pattnaik",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.12.1"
+    "http-server": "^0.12.3"
   }
 }
